@@ -30,4 +30,8 @@ test('fibonacci with 3 to equal 2', () => {
   expect(index.fibonacci(3)).toBe(2);
 });
 
+test('recursiveFactorial with 3 to equal 6', () => {
+  expect(index.recursiveFactorial(3)).toBe(6);
+});
+
 
