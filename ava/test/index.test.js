@@ -1,5 +1,5 @@
 import test from 'ava';
-var index = require("./SRC/index");
+var index = require("../src");
 // test('foo', t => {
 //   t.pass();
 // });
@@ -31,6 +31,11 @@ test('divide of 3 / 3 equal to 1', t =>{
 test.todo('Check fibonacci function');
 test('fibonacci of 1 equal to 1', t =>{
   t.is(index.fibonacci(1), 1);
+});
+
+test.todo('Check recursiveFactorial function');
+test('recursiveFactorial of 3 equal to 6', t =>{
+  t.is(index.recursiveFactorial(3), 6);
 });
 
 

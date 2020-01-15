@@ -1,0 +1,27 @@
+{
+  "name": "chai-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+
+    "save-dev": "0.0.1-security"
+  },
+  "devDependencies": {
+    "mocha": "^7.0.0",
+    "chai": "^4.2.0",
+    "nyc": "^15.0.0"
+  },
+  "nyc": {
+    "reporter": [
+      "lcov",
+      "text"
+    ],
+    "tempDirectory": "./coverage"
+  }
+}

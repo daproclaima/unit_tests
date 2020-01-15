@@ -1,5 +1,5 @@
 var assert = require('chai').assert;    // Using Assert style
-var index = require('../SRC/index');
+var index = require('../src/index');
 describe('index', function() {
 
   describe('#sum', function() {
@@ -35,6 +35,12 @@ describe('index', function() {
     });
     it('fibonacci of 3 is expected to return 2', function() {
       assert.equal(index.fibonacci(3),2);
+    });
+  });
+
+  describe('#recursiveFactorial', function() {
+    it('recursiveFactorial of 3 is expected to return 6', function() {
+      assert.equal(index.recursiveFactorial(3),6);
     });
   });
 });

@@ -1,0 +1,1 @@
+{"processes":{"215ece9f-3cd7-41b1-a79f-02c922c9157e":{"parent":"dd68432c-26fe-4fd9-b7a5-376cbf1cec26","children":[]},"dd68432c-26fe-4fd9-b7a5-376cbf1cec26":{"parent":null,"children":["215ece9f-3cd7-41b1-a79f-02c922c9157e"]}},"files":{"/Applications/MAMP/htdocs/MDS/qualite/unit_tests/ava/src/index.js":["215ece9f-3cd7-41b1-a79f-02c922c9157e"]},"externalIds":{}}
