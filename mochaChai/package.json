@@ -15,7 +15,8 @@
   "devDependencies": {
     "mocha": "^7.0.0",
     "chai": "^4.2.0",
-    "nyc": "^15.0.0"
+    "nyc": "^15.0.0",
+    "minimist": ">=0.2.1"
   },
   "nyc": {
     "reporter": [
