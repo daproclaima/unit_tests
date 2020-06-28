@@ -51,7 +51,7 @@
 		"test": "nyc --reporter=lcov --reporter=text-summary ava"
 	},
 	"devDependencies": {
-		"ava": "^2.4.0",
+		"ava": "^3.9.0",
 		"eslint": "^6.7.2",
 		"eslint-plugin-ava": "^9.0.0",
 		"nyc": "^15.0.0"

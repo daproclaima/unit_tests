@@ -1,5 +1,6 @@
-import test from 'ava';
-var index = require("../src");
+// eslint-disable-next-line ava/use-test
+let test = require('ava');
+let index = require("../src");
 // test('foo', t => {
 //   t.pass();
 // });
